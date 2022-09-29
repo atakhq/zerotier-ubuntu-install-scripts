@@ -18,6 +18,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
 
 #clone ZT source
+cd
 git clone https://github.com/zerotier/ZeroTierOne.git
 
 
