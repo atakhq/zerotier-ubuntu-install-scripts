@@ -29,7 +29,7 @@ make
 #Create service to run at startup
 sudo tee $HOME/ZeroTierOne/startZT.sh >/dev/null << EOF
 #!/bin/bash
-cd /home/tak/ZeroTierOne/
+cd $HOME/ZeroTierOne/
 sudo ./zerotier-one -d
 EOF
 
