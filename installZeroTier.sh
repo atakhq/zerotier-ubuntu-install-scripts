@@ -34,7 +34,7 @@ cd $HOME/ZeroTierOne/
 sudo ./zerotier-one -d
 EOF
 
-sudo chmod +x startZT.sh 
+sudo chmod +x $HOME/ZeroTierOne/startZT.sh 
 
 sudo tee /etc/systemd/system/zero-tier.service >/dev/null << EOF
 [Unit]
