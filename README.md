@@ -4,4 +4,4 @@ Script package to install and configure Zero Tier (VPN Solution) on Ubunutu Serv
 
 1.
 
-`git clone https://github.com/atakhq/zerotier-ubuntu-install-scripts.git && cd zerotier-ubuntu-install-scripts && sudo chmod +x * &&`
+`git clone https://github.com/atakhq/zerotier-ubuntu-install-scripts.git && cd zerotier-ubuntu-install-scripts && sudo chmod +x * && sudo ./installZeroTier.sh`
