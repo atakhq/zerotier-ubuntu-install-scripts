@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "*******************************************************************************"
 echo "This script will install ZeroTier on your Ubuntu Server under the current user:"
 echo "$USER"
